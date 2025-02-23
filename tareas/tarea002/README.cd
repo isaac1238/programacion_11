@@ -1,0 +1,12 @@
+Sistema de Tarifas de Transporte
+
+Descripción
+Este programa en C++ calcula el precio del boleto de transporte en función de la edad del usuario y el tipo de boleto seleccionado. El usuario debe ingresar su edad y elegir entre las opciones de boleto disponibles. El programa aplica descuentos según las reglas establecidas.
+
+Reglas de Tarifas
+
+Si el usuario tiene menos de 5 años, el boleto es gratuito.
+Si el usuario elige el boleto "Estudiante" (E), recibe un descuento del 50% sin importar su edad.
+Si el usuario elige el boleto "Senior" (S) y tiene 60 años o más, recibe un descuento del 30%.
+Si el usuario elige el boleto "Normal" (N), paga el precio base de $100.
+Si un usuario menor de 60 años intenta elegir el boleto "Senior" o ingresa una opción inválida, se le pide que seleccione nuevamente.
